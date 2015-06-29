@@ -27,6 +27,7 @@ Replace username and db name accordingly.
     pip install numpy pandas==0.12.0
 
 ## Set local_settings.py, update it accordingly
+#Setting RDS with keptdata https://docs.djangoproject.com/en/1.6/ref/settings/#databases
     cp script/local_settings.py local_settings.py
 
 ## Initial db setup
