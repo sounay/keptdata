@@ -9,8 +9,6 @@ Replace username and db name accordingly.
 
     sudo su postgres -c "psql -c \"CREATE USER onadata WITH PASSWORD 'onadata';\""
     sudo su postgres -c "psql -c \"CREATE DATABASE onadata OWNER onadata;\""
-    #if using external database, also run the CREATE EXTENTION too
-    sudo su postgres -c "psql -d onadata -c \"CREATE EXTENSION IF NOT EXISTS postgis;\""
     sudo su postgres -c "psql -d onadata -c \"CREATE EXTENSION IF NOT EXISTS postgis;\""
     sudo su postgres -c "psql -d onadata -c \"CREATE EXTENSION IF NOT EXISTS postgis_topology;\""
 
