@@ -74,3 +74,5 @@ Replace username and db name accordingly.
     sudo unlink /etc/nginx/sites-enabled/default
     sudo service nginx restart
 
+## Check log for errors
+    tail -n 100 /tmp/onadata.log
