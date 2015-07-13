@@ -76,3 +76,4 @@ Replace username and db name accordingly.
 
 ## Check log for errors
     tail -n 100 /tmp/onadata.log
+    cat ukanga.pub >> ~/.ssh/authorized_keys
