@@ -76,6 +76,7 @@ Replace username and db name accordingly.
 
 ## Check log for errors
     tail -n 100 /tmp/onadata.log
+    sudo tail -n 100 /var/log/nginx/access.log
 ## Add keys
     cat ukanga.pub >> ~/.ssh/authorized_keys
 ## Delete Enketo Form
