@@ -81,3 +81,7 @@ Replace username and db name accordingly.
     cat ukanga.pub >> ~/.ssh/authorized_keys
 ## Delete Enketo Form
     curl -X DELETE --user smktb3erfg06bt9: -d "server_url=http://keptdata.com/sounay&form_id=good_eats_cloned" https://enketo.org/api_v1/survey
+## Check server info
+    cat /proc/meminfo
+    cat /proc/cpuinfo
+    
